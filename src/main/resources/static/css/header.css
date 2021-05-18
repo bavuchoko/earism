@@ -1,0 +1,69 @@
+body{position: relative;}
+a.clipicon{padding: 10px;}
+i.fa-clipboard{font-size: 15px;color: rgb(206, 206, 206); width: 30px; height: 20x; padding-top: 8px; text-align: center;}
+.navbar{border-radius: 0px !important; height: 40px; margin-bottom: 0px !important; z-index: 3;}
+.navbar-nav > li{font-size: 12px;}
+.navbar-nav > li > a {font-size: 12px; padding: 14px !important;}
+a.navbar-brand{padding: 14px !important;}
+#sectorone{width: 100%; height: auto;}
+#home{width: 100%;height:auto; background-image: url(../imgs/main2.jpg);background-size: cover;background-repeat: no-repeat;}
+.navbar-brand{font-size: 13px !important;}
+#top_copy{margin-top: 70px; margin-bottom: 100px; text-align: center;z-index: 4;}
+#top_copy > img{margin-bottom: 40px;}
+#top_copy > p {font-size: 55px; font-weight: 900;}
+#top_fixbar{width: 100%; height: 40px; background-color: rgba(255, 255, 255, 0.685);border-bottom: 1px solid rgb(212, 212, 212); padding-top: 3px; backdrop-filter: saturate(100%) blur(15px); z-index: 10;}
+.cl{ font-size: 14px; margin-top: 7px;}
+.catch{ font-size: 14px; margin-top: 10px;}
+.catch:nth-child(1){margin-left: 20px;}
+.catch:nth-child(2){margin-left: 20px;}
+.companyname{font-size: 18px;color: rgb(219, 42, 42);}
+.fa-user-circle{font-size: 23px;color:#fa233b ;}
+.fa-user-circle:hover{cursor: pointer;}
+a{text-decoration: none !important;}
+#test{width: 100%; height: 1200px; background-image: url(../imgs/main2.jpg);background-size: auto;background-repeat: no-repeat;}
+#sectortwo{width: 100%;height: auto; background-color: white; text-align: center; padding-top: 100px;position: absolute; top: 1700px}
+#prll{width: 900px; margin: 0 auto; height: 800px;}
+
+#prll > p {width:100%; margin:0 auto; font-size: 45px; font-weight: 900; opacity: 0; transform: scale(1.5); transition: ease 0.5s;}
+#prll > p#pb{margin-bottom: 50px;}
+#prll > p#pd{margin-bottom: 50px;}
+#prll > p#pf{margin-bottom: 50px;}
+#prll > p#pg{margin-bottom: 50px;}
+
+.stext{color: rgb(241, 56, 56);}
+p#sloginbt{width: 140px; height: 47px;border: none; background-color: rgb(234, 51, 51); font-size: 16px; border-radius: 50px; color: white;letter-spacing: 1px; padding: 12px 17px; margin: 0 auto; font-weight: 700;}
+#sectorthree{position: absolute; top:2350px}
+#sectorthree{width: 100%; height: 3800px;background-color: rgb(243, 242, 242);}
+
+h2#sectorthreehtag{  left: calc(50% - 73px); margin: 0 auto !important; text-align: center; font-size: 34px !important; padding-top: 90px;line-height: 40px;font-weight: 900;}
+.card_wrapper{ position: relative;width: 750px; height: 100%; margin: 0 auto;}
+.card_wrapper > ul#cardul{padding: 0 !important; margin: 0 !important;}
+.card_wrapper > ul > li{text-decoration: none; list-style: none;}
+.cardview{width: 750px; height: 500px; background-color: rgb(255, 255, 255); position: absolute;left: calc(50% - 375px); border-radius: 8px;}
+.cardview >figure{width:100%;}
+.cardview >figure > div{width:100%;}
+.cardview >figure > div >p {width:100%; text-align: center; font-size: 24px; font-weight: 600;}
+#cardtag{width: 100%;height: 130px; padding-top: 20px;}
+.cardview >figure > div > div {width: 750px;height: 350px; overflow: hidden;margin-top: 20px;border-radius: 0px 0px 8px 8px;}
+.cardview >figure > div > div > img {width:750px; display: block;}
+.red{color: #fa233b;}
+
+
+/* .ca{background-color: rgb(250, 1, 1); top:300px;}
+.cb{background-color: rgb(192, 124, 37);top:1000px}
+.cc{background-color: rgb(20, 96, 8);top:1700px}
+.cd{background-color: rgb(211, 82, 50);top:2400px}
+.ce{background-color: rgb(17, 10, 67);top:3100px} */
+
+
+/* 섹션4 */
+
+#sectorfour{width: 100%; height: 150px; position:absolute; top:6250px;}
+#sectorfour > div{width: 1500px; float: right;}
+
+
+#sectorfour > div > div > ul > li{float: left;}
+p.recolist{font-size: 23px; font-weight: 700;}
+ul.listreco{list-style: none;}
+.musiccover > img{width: 200px;height: 200px;}
+.listreco >li > p{font-size: 15px;font-weight: 600;}

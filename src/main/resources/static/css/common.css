@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400&display=swap');
+
+
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+html, body{width: 100%; height: 100%;}
+
+@font-face {
+    font-family: noto-mid;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400&display=swap');
+  }
+@font-face {
+    font-family: roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+  }
+
+  .ltor{right: -100%;}
+.rtol{right: 0%;}
+.disphidden{display:none;}
+
+
+.flex{display:flex}
+li{text-decoration: none; list-style: none;}
+
+.sctor{left: 100%;}
+.sctol{left: -50%;}
+.srtoc{left: 50%;}
+.sltoc{left: 0%;}
+
+.sctou{top: -100%;}
+.sctod{top: 100%;}
+.sutoc{top: 0%;}
+.sdtoc{top: 0%;}
+
+
+
+/* 로그인 */
+#login_dim{z-index: 11; position: fixed; top:0; left: 0; width: 100%; height: 100%; background-color: rgba(109, 109, 109, 0.903);}
+#login{z-index: 12; position: fixed;left: calc(50% - 500px);top:calc(50% - 300px); width: 1000px; height: 600px;border-radius: 10px; overflow: hidden;}
+#loginleft{width: 50%; height: 100%; background-image: url(../imgs/1.png); background-size: cover; background-repeat: no-repeat; border-radius: 8px 0px 0px 8px}
+#loginright{width: 50%; height: 100%; background-color: white;border-radius: 0px 8px 8px 0px;}
+#loginask{margin-top: 20px; width: 100%;height: 70px; padding-top: 40px; margin-bottom: 150px;}
+#loginask > span{color: rgb(123, 123, 123); font-weight: 700; margin-left: 50%;}
+#loginask > span:nth-child(2){color: rgb(49, 49, 89); font-weight: 700; margin-left:5%;}
+#login_main > span{position: absolute; top: 220px; left: 400px; margin-left: 20%; font-size: 12px; color: rgb(157, 18, 18);}
+#login_main > input{width: 70%; height: 30px; margin-left: 15%; border: none; outline: none; border-bottom: 2px solid rgb(55, 84, 152); text-indent: 25px; margin-bottom: 30px;margin-top: 5px; letter-spacing: 1px;padding-bottom: 5px;}
+#emailicon{position: absolute;top:250px; left: 580px;color: rgb(72, 72, 132);}
+#passwdicon{position: absolute; top:315px; left: 580px;color: rgb(72, 72, 132);}
+#loginbt{width: 130px; height: 40px; margin-left: calc(50% - 65px);border-radius: 5px; border: none;background-color: blue; color: white; font-weight: 800; letter-spacing: 1px; margin-bottom: 20px;}
+#findpw{display: inline-block; margin-left: 38.5%; color: rgb(95, 97, 99); margin-bottom: 45px;}
+#snslogin > img{width: 35px; height: 35px; margin-left: 78%;}
+/* 로그인 hover */
+#loginask > span:nth-child(2):hover{cursor: pointer;}
+#snslogin > img:hover{cursor: pointer;}
+#findpw:hover{cursor: pointer;}
+
+
+
+
+/* 회원가입 */
+#join{z-index: 12; position: fixed; left: calc(50% - 500px);top:calc(50% - 300px); width: 1000px; height: 600px;border-radius: 10px;overflow: hidden;}
+#joinright{position: absolute;width: 50%; height: 100%; background-image: url(../imgs/1.png); background-size: cover; background-repeat: no-repeat; border-radius: 0px 8px 8px 0px;transition: cubic-bezier(1, 0.04, 0, 1) 1s;}
+#joinleft{position: absolute; width: 50%; height: 100%; background-color: white;border-radius: 8px 0px 0px 8px;transition: cubic-bezier(1, 0.04, 0, 1) 1s;}
+#joinask{margin-top: 20px; width: 100%;height: 20px; padding-top: 40px; margin-bottom: 60px;}
+#joinask > span{color: rgb(123, 123, 123); font-weight: 700; margin-left: 50%;}
+#joinask > span:nth-child(2){color: rgb(24, 24, 190); font-weight: 700; margin-left:5%;}
+#join_main > span{position: absolute; top:100px; margin-left: 20%; font-size: 12px; color: rgb(157, 18, 18);}
+span#pwcheck{position: absolute; top:300px; left: 0px;}
+#join_main > input{width: 70%; height: 30px; margin-left: 15%; border: none; outline: none; border-bottom: 2px solid rgb(55, 84, 152); text-indent: 25px; margin-bottom: 30px;margin-top: 5px; letter-spacing: 1px;padding-bottom: 5px;}
+#joinbt{width: 130px; height: 40px; margin-left: calc(50% - 65px);border-radius: 5px; border: none;background-color: blue; color: white; font-weight: 800; letter-spacing: 1px; margin-bottom: 20px;}
+#emailiconjoin{position: absolute;top:130px; left: 80px;color: rgb(72, 72, 132);}
+#nicknamejoin{position: absolute; top:197px; left: 80px;color: rgb(72, 72, 132);}
+#passwdiconjoin1{position: absolute; top:259px; left: 80px;color: rgb(72, 72, 132);}
+#passwdiconjoin2{position: absolute; top:327px; left: 80px;color: rgb(72, 72, 132);}
+/* 회원가입  hover */
+#joinask > span:nth-child(2):hover{cursor: pointer;}
+
+/* 비밀번호 찾기 */
+#forgot{z-index: 12; position: fixed; left: calc(50% - 500px);top:calc(50% - 300px); width: 1000px; height: 600px;border-radius: 10px;overflow: hidden;}
+#forgotright{position: absolute;width: 50%; left: 50%; height: 100%;background-image: url(../imgs/1.png); background-size: cover; background-repeat: no-repeat; border-radius: 0px 8px 8px 0px;transition: cubic-bezier(1, 0.04, 0, 1) 1s;}
+#forgotleft{position: absolute; width: 50%; height: 100%; background-color: white;border-radius: 8px 0px 0px 8px;transition: cubic-bezier(1, 0.04, 0, 1) 1s;}
+#forgotask{margin-top: 20px; width: 100%;height: 20px; padding-top: 40px; margin-bottom: 60px;}
+#forgotask > span{color: rgb(123, 123, 123); font-weight: 700; margin-left: 50%;}
+#forgotask > span:nth-child(2){color: rgb(24, 24, 190); font-weight: 700; margin-left:5%;}
+#forgot_main > span{display:block;margin-left: 20%; font-size: 12px; color: rgb(157, 18, 18);}
+span.forgotspan{display:block;margin-left: 20%; font-size: 12px; color: rgb(157, 18, 18);}
+#forgot_main > input{width: 70%; height: 30px; margin-left: 15%; border: none; outline: none; border-bottom: 2px solid rgb(55, 84, 152); text-indent: 25px; margin-bottom: 30px;margin-top: 5px; letter-spacing: 1px;padding-bottom: 5px;}
+input.forgotinput{width: 70%; height: 30px; margin-left: 15%; border: none; outline: none; border-bottom: 2px solid rgb(55, 84, 152); text-indent: 25px; margin-bottom: 30px;margin-top: 5px; letter-spacing: 1px;padding-bottom: 5px;}
+input#sendcode{position: absolute; top:142px;  left:273px; width: 75px;height: 20px; padding-top: 3px; border: none; border-radius: 5px; text-indent: 0; font-size: 8px;background-color: blue; color: white; }
+input#entercode{position: absolute; top:224px;  left:273px; width: 75px;height: 20px; padding-top: 3px; border: none; border-radius: 5px; text-indent: 0; font-size: 8px;background-color: blue; color: white; }
+#forgotbt{width: 130px; height: 40px; margin-left: calc(50% - 65px);border-radius: 5px; border: none;background-color: blue; color: white; font-weight: 800; letter-spacing: 1px; margin-bottom: 20px;}
+#emailiconforgot{position: absolute;top:143px; left: 80px;color: rgb(72, 72, 132);}
+#codeforgot{position: absolute; top:225px; left: 80px;color: rgb(72, 72, 132);}
+#passwdiconforgot1{position: absolute; top:304px; left: 80px;color: rgb(72, 72, 132);}
+#passwdiconforgot2{position: absolute; top:386px; left: 80px;color: rgb(72, 72, 132);}
+/* 회원가입  hover */
+#forgotask > span:nth-child(2):hover{cursor: pointer;}
+
+#member > a > i.fa-user-circle{font-size: 24px; color: #fa233b; }
+
+
+
+
+html, body{font-family: noto-mid !important;}
+
+#maincontainer{width: 100%;height: 100%; position: relative;}
+#lefter{width: 260px; height: 100% ; border-right: 1px solid rgb(215, 214, 214); box-sizing: border-box;background-color: rgb(244, 245, 246);float: left;}
+#leftercontainer{position: relative;}
+#righter{width: calc(100% - 260px); height: 100%; float: right;}
+#header{width: 100%;height: 60px;border-bottom: 1px solid rgb(215, 214, 214);}
+/* #righter_body{width: 100%;height: calc(100% - 60px); background-color: #fa233b;} */
+iframe{border: none;}
+.logodiv{margin: 5% 10% 10%; width: 80%; height: 31px;}
+
+p.logo {font-size: 22px;font-weight: 900; font-family: roboto; color: #222222 !important;}
+
+
+/* 메인 리스트 */
+
+#mainlist{width: 100%;height: auto; padding: 50px 120px;}
+#mainlist > ul{list-style: none; padding: 0;}
+#mainlist > ul >li{display: flex; font-family: roboto;}
+.toptitle {border-top: 1px solid rgb(212, 212, 212);border-bottom: 1px solid rgb(212, 212, 212); padding: 5px 10px;}
+.toptitle > p{margin: 0px;}
+.toptitle > p:nth-child(1){text-align: left;width: 43%;}
+.toptitle > p:nth-child(2){text-align: left;width: 43%;}
+.toptitle > p:nth-child(3){text-align: right; width: 14%;}
+.eachsong{position: relative; width: 100%;height: 58px; display: flex; padding: 6px 0px;}
+.songcover{display: flex; height: 100%;}
+.songtime{text-align: right; position: relative;}
+
+
+.songcover > a > img{width: 40px; height: 40px; border-radius: 4px;}
+.listsonginfo {width: 100%; border-bottom: 1px solid rgb(212, 212, 212);}
+.listsonginfo > a > p{font-size: 13px; margin-bottom: 5px; margin-left: 10px; color: rgb(53, 52, 52); text-decoration: none;}
+.songalbum{padding-top: 9px; font-size: 14px;border-bottom: 1px solid rgb(212, 212, 212);}
+.songalbum > a{color:rgb(53, 52, 52); text-decoration: none;}
+.songtime{border-bottom: 1px solid rgb(212, 212, 212);padding-top: 9px; padding-right: 5px; display: flex;}
+.dot{ width: 25px; height: 25px; padding-top: 3px;color: #b2afaf; text-align: center;padding: 6px; border-radius: 50px;}    
+div.dot:hover{background-color: #cbcaca; cursor: pointer; color: #222222;}
+.alignright{position: absolute; right: 0px;}
+.songcover >input {margin: 12px 10px !important;}
+.toptitle > p >input{margin-right: 10px !important;}
+.songcover{width: calc(45% - 32px);}
+.songalbum{width: calc(45% + 22px);}
+.songtime{width: calc(10% + 10px);}
+/*lefter*/
+
+#leftercontainer{width: 80%;height:auto; margin: 0 auto;}
+#leftercontainer > input{width: 100%; height: 30px; border: 1px solid gainsboro;border-radius: 3px; text-indent: 8px;outline: none;}
+#leftercontainer >ul{list-style: none; margin:15px 0px; padding: 0; font-size: 16px; color: rgb(54, 54, 54); font-family: roboto;}
+#leftercontainer >ul > li{line-height: 30px;padding: 5px 10px; border-radius: 5px;}
+#leftercontainer >ul > li:hover{background-color: rgb(233, 233, 233); cursor: pointer;}
+#leftercontainer >ul > li > i{color: #f52039; font-size: 18px;}
+
+
+#centercontainer{width:100%; height:350px;  padding: 50px 120px;font-family: noto-mid; }
+#centertop{width: 100%; display: flex; position: relative;}
+#introduce{margin-left: 50px; position: relative;}
+#introduce > button{position: absolute; bottom: 10px; width: 110px;font: 20px;background-color: #fa233b;color: white;border-radius: 8px;padding:5px 6px; text-align: center;border: none;outline: none;}
+#introduce > p:nth-child(1){font-size: 22px; font-weight: 700; font-family: roboto; padding-top: 50px;}
+#introduce > p:nth-child(2){font-size: 22px; color: #fa233b; font-weight: 700; font-family: roboto;}
+#introduce > p:nth-child(3){font-size: 14px; width: 500px;}
+#introduce > p:nth-child(3) > span:nth-child(1){color: #828282;}
+#bigpic > img{width: 250px; height: 250px; border-radius:4px; box-shadow: 0 10px 25px #39495780;}
+
+
+/* artists */
+#artists{width:100%; height:200px;  padding: 20px 120px;float: left; font-family: noto-mid;overflow: hidden; border-radius: 3px;}
+#artists > p{height: 25px; padding-bottom: 10px; margin: 0px;}
+#artistlist > ul >li{width: 80px; height:130px; float: left; margin-left: 20px;}
+#artistlist > ul > li > img{width: 80px; height: 80px; border-radius: 50%;}
+#artistlist > ul > li > p{width: auto; text-align: center; font-size: 12px; padding-top: 4px;}
+#artistlist{width: 100%; height: calc(100% - 25px); overflow: hidden;}
+
+.audioplayer{width: 500px; height: 300px;}
+
+
+
+#songbar{width: 100%;height: 100%; position: relative; background-color: #fafafa;}
+#songtitle{text-align: center; font-size: 14px !important; font-family: noto-bold;display: block; margin: 0 auto;margin-top: 4px;}
+#songsinger{text-align: center; font-size: 12px !important; font-family: noto-bold;display: block; margin: 0 auto;}
+
+.progress{  height: 5px !important; position: absolute !important; bottom: 1px; border: none !important; outline: none !important; border-radius: 10px !important; background-color: #5c99d3 !important; margin: 0px!important; margin-left: 5% !important;}
+#curenttime{position: absolute;bottom: 5px; right: 35px; font-size: 11px;}
+#duration{position: absolute; bottom: 5px; right: 5px; font-size: 11px;}
+#frameoutter{height: calc(100% - 60px);}
+.price{position: absolute; right:50px;}
+
+#alarmsend{position: fixed; top: 65%; left: 45%; width: 120px; height: 60px; font-weight: 600;  color: white; background-color:#fa233b;  border-radius: 7px; z-index: 20;padding: 20px 10px; text-align: center;}
+#alarmsendone{position: fixed; top: 65%; left: 42%; width: 240px; height: 60px;   font-weight: 600;  color: white; background-color:#fa233b;  border-radius: 7px; z-index: 20;padding: 20px 10px; text-align: center;}
+#alarmsendtwo{position: fixed; top: 65%; left: 42%; width: 168px; height: 60px;   font-weight: 600;  color: white; background-color:#fa233b;  border-radius: 7px; z-index: 20;padding: 20px 10px; text-align: center;}
+#alarmsendthree{position: fixed; top: 65%; left: 42%; width: 168px; height: 60px;   font-weight: 600;  color: white; background-color:#fa233b;  border-radius: 7px; z-index: 20;padding: 20px 10px; text-align: center;}
+#alarmupload{position: fixed; top: 65%; left: 42%; width: 120px; height: 60px;  font-weight: 600;  color: rgb(255, 255, 255); background-color:#fa233b; border-radius: 7px; z-index: 20;padding:20px 10px; text-align: center;}
+
+.gray{color: gray !important;}

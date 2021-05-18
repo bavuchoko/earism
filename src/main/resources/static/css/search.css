@@ -1,0 +1,64 @@
+html, body{font-family: noto-mid !important;}
+
+#maincontainer{width: 100%;height: 100%; display: flex; position: relative;}
+#lefter{width: 260px; height: 100% ; border-right: 1px solid rgb(215, 214, 214); box-sizing: border-box;background-color: rgb(244, 245, 246);}
+#righter{width: calc(100% - 260px); height: 100%;}
+#header{width: 100%;height: 60px;border-bottom: 1px solid rgb(215, 214, 214);}
+.logodiv{margin: 5% 10% 10%; width: 80%; height: 31px;}
+p.logo{font-size: 22px;font-weight: 900; font-family: roboto;}
+#leftercontainer{width: 80%;height:auto; margin: 0 auto;}
+#leftercontainer > input{width: 100%; height: 30px; border: 1px solid gainsboro;border-radius: 3px; text-indent: 8px;outline: none;}
+#leftercontainer >ul{list-style: none; margin:15px 0px; padding: 0; font-size: 16px; color: rgb(61, 61, 61); font-family: roboto;}
+#leftercontainer >ul > li{line-height: 30px;padding: 5px 10px; border-radius: 5px;}
+#leftercontainer >ul > li:hover{background-color: rgb(233, 233, 233); cursor: pointer;}
+#leftercontainer >ul > li > i{color: #fa233b; font-size: 18px;}
+
+.aaa{width: auto; height: 60px; text-align: center;padding-top: 18px;}
+#header{display: flex;}
+#controller{width: 30%; height: 100%;}
+#songinfo{width: 38%; height: 100%;}
+#sound{width:18%; height: 100%;text-align: center; padding-top: 22px;}
+#member{width:14%;padding-top: 17px;}
+.aaa > i{color: rgb(77, 77, 77); display: inline-block; margin: 4px;}
+.aaa > i.fa-random{color:rgb(121, 121, 121)}
+.aaa > i.fa-backward{font-size: 18px;}
+.aaa > i.fa-play{font-size: 20px;}
+.aaa > i.fa-forward{font-size: 18px;}
+.aaa > i.fa-redo{color:rgb(121, 121, 121)}
+#song{width: 100%; height: 50px; margin: 4px;;border: 1px solid rgb(224, 224, 224);box-sizing: border-box; display: flex;}
+#songpic{width: 48px;height: 48px;border-right: 1px solid rgb(224, 224, 224); box-sizing: border-box;background-color: rgb(238, 238, 238); font-size: 30px; color: rgb(222, 222, 222); padding: 4px 7px;}
+#sound >i.fa-volume-up{font-size: 15px; color: #828282;}
+
+span#playlistcustom{font-family: noto-mid; font-size: 14px !important;}
+#albums{width:100%; height:220px;  padding: 20px 120px;float: left; font-family: noto-mid; overflow: hidden;}
+#albums > p{height: 25px; padding-bottom: 10px; margin: 0px;}
+#albumlist{width: 100%; height: calc(100% - 25px); overflow: hidden; border-radius: 3px;}
+#albumlist > ul > li {width: 130px;height: 150px; float: left; margin-left: 20px;}
+#albumlist > ul > li > img{width: 130px;height: 130px; border-radius: 4px;box-shadow: 0 5px 15px #39495780; border: none;}
+#albumlist > ul > li > p{width: auto; text-align: center; font-size: 12px; padding-top: 4px;}
+
+#centertop{width: 100%; display: flex; position: relative;}
+#albumlist{position: relative;}
+
+#bigpic > img{width: 250px; height: 250px; border-radius:4px; box-shadow: 0 10px 25px #39495780;}
+#mainlist{width: 100%;height: auto; padding: 50px 120px; padding-top: 350px;}
+#mainlist > ul{list-style: none; padding: 0;}
+
+#mainlist > ul >li{display: flex; font-family: roboto;}
+.toptitle {border-top: 1px solid rgb(212, 212, 212);border-bottom: 1px solid rgb(212, 212, 212); padding: 5px 10px;}
+.toptitle > p{margin: 0px;}
+.toptitle > p:nth-child(1){text-align: left;width: 43%;}
+.toptitle > p:nth-child(2){text-align: left;width: 43%;}
+.toptitle > p:nth-child(3){text-align: right; width: 14%;}
+.eachsong{position: relative; width: 100%;height: 58px; display: flex; padding: 6px 0px;}
+.songcover{width: 45%; display: flex; height: 100%;}
+.songalbum{width: 45%;}
+.songtime{width: 10%; text-align: right; position: relative;}
+.songcover > img{width: 40px; height: 40px; border-radius: 4px;}
+.listsonginfo{width: 100%; border-bottom: 1px solid rgb(212, 212, 212);}
+.listsonginfo > p{font-size: 13px; margin-bottom: 5px; margin-left: 10px; }
+.songalbum{padding-top: 9px; font-size: 14px;border-bottom: 1px solid rgb(212, 212, 212);}
+.songtime{border-bottom: 1px solid rgb(212, 212, 212);padding-top: 9px; padding-right: 5px; display: flex;}
+.dot{ width: 25px; height: 25px; padding-top: 3px;color: #b2afaf; text-align: center;padding: 6px; border-radius: 50px;}    
+div.dot:hover{background-color: #cbcaca; cursor: pointer; color: #222222;}
+.alignright{position: absolute; right: 0px;}

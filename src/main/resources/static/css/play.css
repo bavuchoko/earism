@@ -1,0 +1,12 @@
+
+p.logo{font-size: 22px;font-weight: 900; font-family: roboto;}
+
+.playbt{}
+.shufflebt{left: 120px;}
+
+#operation{position: absolute; right: 0; bottom: 0; width: 300px;height: 50px; padding-top: 10px;}
+i.fa-plus-circle{font-size: 30px; margin-left: 10px; color: #fa233b;vertical-align: top;}
+.cartmusi{padding-top: 3px;border: none; outline: none; color: white;background-color: #fa233b; border-radius: 5px; width: 80px; height: 30px;}
+
+.swiper-slide > div > img:hover{cursor: pointer;}
+#thisplaylist:hover{cursor: pointer;}

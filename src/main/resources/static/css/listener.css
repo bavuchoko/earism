@@ -1,0 +1,20 @@
+#myinfo{width: 100%; height: 250px; padding: 50px 120px; display: flex;}
+#mypic{width: 100px; height: 100px; margin-right: 20px;}
+#mypic >img {width: 100px; height: 100px;}
+.repw > a{color: rgb(42, 42, 43); text-decoration: none;}
+.name > a{color: rgb(42, 42, 43); text-decoration: none;}
+.credit > i{font-size: 22px; color: rgb(78, 78, 78);}
+.creditregist > i{font-size: 22px; color: rgb(78, 78, 78);}
+.credit:hover{cursor: pointer;}
+.creditregist:hover{cursor: pointer;}
+#maininfo{ width: 250px;}
+#subinfo >a{color:rgb(46, 45, 45)}
+#subinfo >a:hover{border: none; color: rgb(24, 23, 23); text-decoration: none;}
+
+
+.songcover{width: 45%; }
+.songtime{width: 10%;}
+#mainlist{padding-top: 0px;}
+p.purchased{height: 25px; margin-left: 20px;}
+
+.button{margin-left: 50px; font-size: 12px;}

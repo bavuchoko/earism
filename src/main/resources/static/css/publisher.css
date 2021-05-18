@@ -1,0 +1,30 @@
+#myinfo{width: 100%; height: 250px; padding: 50px 120px; display: flex;}
+#mypic{width: 100px; height: 100px; margin-right: 20px;}
+#mypic >img {width: 100px; height: 100px;}
+.repw > a{color: rgb(42, 42, 43); text-decoration: none;}
+.name > a{color: rgb(42, 42, 43); text-decoration: none;}
+.credit > i{font-size: 22px; color: rgb(78, 78, 78);}
+#maininfo{ width: 250px;}
+#subinfo >a{color:rgb(46, 45, 45)}
+#subinfo >a:hover{border: none; color: rgb(24, 23, 23); text-decoration: none;}
+#upload{padding:10px 120px;width: 100%; display: flex; margin-bottom: 20px; position: relative;}
+.upcover{ width: 160px; height: 160px; border-radius: 4px;box-shadow: 0 10px 25px #39495780; margin-right: 20px;}
+
+#mainlist{padding-top: 0px;}
+p#uptag{margin-left: 120px; margin-top: 20px;}
+p.purchased{height: 25px; margin-left: 120px; margin-top: 60px;}
+.buttonup{width: 140px; height: 33px; position: absolute; top: 10px; left:900px; font-size: 11px;}
+.inputup{font-family: noto-mid; font-size: 14px;}
+.inputup > input{margin-left: 20px;}
+#upinfo > div > ul > li > span{ width: 50px; display: inline-block; height: 20px; height: 25px; vertical-align: middle; padding: 5px 0px;}
+#upinfo > div > ul > li > input{width: 120px; margin: 5px 0px; height: 25px; border-radius: 10px;outline: none;border: none; background-color: rgb(241, 241, 241);} 
+#upinfo2 {position: relative;}
+.uploadbt{margin-left: 25px; vertical-align: text-bottom; width: 80px; height: 24px;border:none; margin-top: 5px; background-color: #fa233b; border-radius: 3px; color: white; font-size: 12px;}
+#market{padding: 30px 120px; display: flex;}
+#mysale{width: 70%; height: 250px; margin-left: 50px;}
+#uploadcover:hover{cursor: pointer;}
+#uploadcover > label:hover{cursor: pointer;}
+img.imgArea{cursor: pointer;}
+
+.songupload{width: 160px; height: 35px; background-color: #07f; border-radius: 7px; color: white; text-align: center;padding: 10px 10px; margin-top: 15px; box-shadow: 0 10px 25px #39495780;}
+.songupload:hover{cursor: pointer;}
